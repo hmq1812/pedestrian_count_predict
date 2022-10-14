@@ -1,23 +1,14 @@
 absl-py==0.15.0
 appnope==0.1.3
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///opt/concourse/worker/volumes/live/c6f9b05d-dc80-4dbc-7473-70bfcb66883c/volume/argon2-cffi-bindings_1644569703264/work
 astunparse==1.6.3
 attrs==22.1.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-cdiouih5/beautifulsoup4_1650462164803/work
 bleach==5.0.1
 cached-property==1.5.2
 cachetools==5.2.0
-certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_83242e7e-f82d-4a71-8ef2-9d71d212d249gu_wxmeq/croots/recipe/certifi_1655968827803/work/certifi
-cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_62rp5d8fd4/croots/recipe/cffi_1659598655556/work
 charset-normalizer==2.1.0
 click==8.1.3
 cycler==0.11.0
 debugpy==1.6.2
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
-entrypoints @ file:///opt/concourse/worker/volumes/live/194c0a28-55ce-4e83-6a87-0d9f2e06ab2c/volume/entrypoints_1649926487944/work
 fastjsonschema==2.16.1
 Flask==2.2.2
 flask-ngrok==0.0.25
@@ -35,10 +26,8 @@ importlib-metadata==4.12.0
 importlib-resources==5.9.0
 ipykernel==6.15.1
 ipython==7.34.0
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
 ipywidgets==7.7.1
 itsdangerous==2.1.2
-jedi @ file:///opt/concourse/worker/volumes/live/c9d2fa99-8bc1-4572-41e7-6beba6391441/volume/jedi_1644315238822/work
 Jinja2==3.1.2
 joblib==1.1.0
 jsonschema==4.8.0
@@ -54,33 +43,22 @@ Keras-Preprocessing==1.1.2
 kiwisolver==1.4.4
 lab==7.1
 Markdown==3.4.1
-MarkupSafe @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d4a9444f-bd4c-4043-b47d-cede33979b0fve7bm42r/croots/recipe/markupsafe_1654597878200/work
 matplotlib==3.5.2
 matplotlib-inline==0.1.3
 mistune==0.8.4
 nbclient==0.6.6
 nbconvert==6.5.0
 nbformat==5.4.0
-nest-asyncio @ file:///opt/concourse/worker/volumes/live/bf4e1da0-0622-4bab-4608-fdb487494886/volume/nest-asyncio_1649847922626/work
-notebook @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_98mevid06x/croots/recipe/notebook_1659083668559/work
 numpy==1.19.5
 oauthlib==3.2.0
 opt-einsum==3.3.0
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
 pandas==1.3.5
-pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==9.2.0
-prometheus-client @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_19kjbndib7/croots/recipe/prometheus_client_1659455105394/work
 prompt-toolkit==3.0.30
 protobuf==3.19.4
 psutil==5.9.1
-ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 Pygments==2.12.0
 pyngrok==4.1.1
 pyparsing==3.0.9
@@ -96,9 +74,7 @@ requests-oauthlib==1.3.1
 rsa==4.9
 scikit-learn==1.0.2
 scipy==1.7.3
-Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
 simplejson==3.17.6
-six @ file:///tmp/build/80754af9/six_1644875935023/work
 soupsieve==2.3.2.post1
 tensorboard==2.9.1
 tensorboard-data-server==0.6.1
@@ -107,15 +83,12 @@ tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
 terminado==0.15.0
-testpath @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_aaf4aec7-dbb6-43d6-9707-824338b4efc82yrt6xjp/croots/recipe/testpath_1655908558843/work
 threadpoolctl==3.1.0
 tinycss2==1.1.1
 tornado==6.2
 traitlets==5.3.0
 txt2tags==3.7
-typing_extensions @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ff5_5nqr6l/croots/recipe/typing_extensions_1659638832447/work
 urllib3==1.26.11
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 Werkzeug==2.2.2
 widgetsnbextension==3.6.1
