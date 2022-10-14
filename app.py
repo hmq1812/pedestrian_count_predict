@@ -1,8 +1,10 @@
 from flask import Flask
+from flask_ngrok import run_with_ngrok
 from flask import request
 from predict import Model
 
 app = Flask(__name__)
+run_with_ngrok(app)
 model = Model()
 
 @app.route('/pred_pedestrian', methods = ['POST'])
@@ -30,9 +32,9 @@ def predict():
             
             hr_count = model.predict(lat, long, mdate, month, year, time)
 
-            return {"hr_count": hr_count}
+            return {"Predicted number of Pedestrian": hr_count}
         except:
             return {"errorCode": 2, "errorMessage": "Model could not predict value for given data"}, 400
 
 if __name__ == "__main__":
-    app.run(port=5001, debug=False)
+    app.run()
