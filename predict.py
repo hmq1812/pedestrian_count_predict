@@ -6,6 +6,7 @@ import joblib
 import pandas as pd
 import datetime
 import calendar
+import time
 
 import config
 
@@ -63,4 +64,23 @@ class Model(object):
 
 if __name__ == "__main__":
     m = Model()
+    start_time = time.time()
     print(m.predict(-37.81766034, 144.95026189, 2, 3, 2020, 12))
+    print("Result produced in --- %s seconds ---" % (time.time() - start_time))
+
+
+    start_time = time.time()
+    print(m.predict(-37.81766034, 144.95026189, 2, 3, 2020, 16))
+    print("Result produced in --- %s seconds ---" % (time.time() - start_time))
+
+    start_time = time.time()
+    print(m.predict(-37.81766034, 144.95026189, 2, 3, 2020, 2))
+    print("Result produced in --- %s seconds ---" % (time.time() - start_time))
+
+    start_time = time.time()
+    print(m.predict(-37.81766034, 144.95026189, 2, 3, 2020, 9))
+    print("Result produced in --- %s seconds ---" % (time.time() - start_time))
+
+    start_time = time.time()
+    print(m.predict(-37.81766034, 144.95026189, 2, 3, 2020, 21))
+    print("Result produced in --- %s seconds ---" % (time.time() - start_time))
